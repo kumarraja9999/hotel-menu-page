@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+</head>
+<body>
+    <header></header>
+    [4:28 PM] Srinivas Kandula
+<main>
+        <h1>To Know About KSR , Register Here...</h1>
+        <form action="https://httpbin.org/get" method="get">
+           
+            <p><label for="">First Name :</label>
+             <input
+             type="text"
+             name="firstname"
+             id="firstname"
+             placeholder="kandula"
+             autocomplete="on"
+             required
+             autofocus />
+            </p>
+            <p>
+             <label for="">Last Name :</label>
+             <input
+             type="text"
+             name="lastname"
+             id="lastname"
+             placeholder="Srinivas"
+             autocomplete="on"
+             required
+             autofocus />
+            </p>
+            <p>
+                <label for="Password">Password :</label>
+                <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="*********"
+                required
+                autofocus />
+               </p>
+               <p>
+                <label for="">Mobile Number :</label>
+                <input
+                type="tel"
+                name="mobile"
+                id="mobile"
+                placeholder="+91-9133432739"
+                pattern="[+][9][1]-[0-9]{10}"
+                required
+                autofocus />
+               </p>
+               <p>
+                <label for="decade">Favorite Decade :</label>
+                <input type="number"
+                name="decade"
+                id="decade"
+                min="1900"
+                max="2020"
+                step="20"
+                value="1970" />
+               </p>
+ 
+ 
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
